@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Погода</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="weather">
+    <div class="weather__inner">
+        <div class="current">
+              <div class="current__city"> Львів </div>
+        <div class="current__description"> мокрий сніг </div>
+        <div class="current__temperature"> 2˚</div>
+      </div>
+
+      <div class="forecast">
+        <div class="forecast__item">
+          <div class="forecast__time">Зараз</div>
+          <div class="forecast__icon icon__13d"></div>
+          <div class="forecast__temperature"> 2˚</div>
+        </div>
+
+        <div class="forecast__item">
+          <div class="forecast__time"> 18:00 </div>
+          <div class="forecast__icon icon__13d"></div>
+          <div class="forecast__temperature"> 2˚</div>
+        </div>
+
+        <div class="forecast__item">
+          <div class="forecast__time"> 21:00 </div>
+          <div class="forecast__icon icon__04d"></div>
+          <div class="forecast__temperature"> 1˚</div>
+        </div>
+
+        <div class="forecast__item">
+          <div class="forecast__time"> 00:00 </div>
+          <div class="forecast__icon icon__04d"></div>
+          <div class="forecast__temperature"> -2˚</div>
+        </div>
+
+        <div class="forecast__item">
+          <div class="forecast__time"> 03:00 </div>
+          <div class="forecast__icon icon__04d"></div>
+          <div class="forecast__temperature"> -4˚</div>
+        </div>
+
+        <div class="forecast__item">
+          <div class="forecast__time"> 06:00 </div>
+          <div class="forecast__icon icon__04d"></div>
+          <div class="forecast__temperature"> -4˚</div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="details__row">
+          <div class="details__item feelslike">
+            <div class="details__name">Відчувається як</div>
+            <div class="details__value"> -3˚</div>
+          </div>
+          <div class="details__item pressure">
+            <div class="details__name">Тиск</div>
+            <div class="details__value"> 715 мм. рт. ст.</div>
+          </div>
+        </div>
+        <div class="details__row">
+          <div class="details__item humidity">
+            <div class="details__name">Вологість</div>
+            <div class="details__value"> 92 %</div>
+          </div>
+          <div class="details__item wind">
+            <div class="details__name">Вітер</div>
+            <div class="details__value"> 5.11 м/с</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='js/weather.js'></script>
+</body>
+</html>
